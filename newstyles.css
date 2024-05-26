@@ -40,11 +40,16 @@ body {
 
 input, button{
   padding:10px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   border-radius: 5px;
   width:100%;
   font-size: 20px;
+  border:none;
   
+  
+}
+button{
+  margin-top:20px;
 }
 
 button:hover{
@@ -52,4 +57,8 @@ button:hover{
   background-color: rgba(var(--prycolor),0.8);
   color:whitesmoke;
 
+}
+
+input:focus{
+ outline-color: rgb(150, 200, 136);
 }
